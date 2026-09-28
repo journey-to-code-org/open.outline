@@ -1,0 +1,26 @@
+{
+  "name": "@journey-to-code/open-outline",
+  "version": "1.0.0",
+  "description": "Small, dependency-free utilities for building hierarchical document outlines from flat heading data.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["outline", "headings", "toc", "document", "tree", "open-web"],
+  "license": "MIT",
+  "sideEffects": false
+}
